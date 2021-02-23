@@ -5,6 +5,19 @@
 
 Imagine an array that contains folders. These folders can have files in it. `move` function moves a file to another folder and returns the new state of given list.
 
+## Installation
+
+```bash
+yarn install
+```
+
+## Usage
+
+```javascript
+move(list, sourceId, destinationId);
+```
+
+
 ### Example list
 ```ts
 const list = [
